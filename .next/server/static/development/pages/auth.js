@@ -102,13 +102,17 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/vwmac/Projects/RCG/23.387/nextJS-test/components/User.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const user = props => __jsx("div", {
+  className: "jsx-489936096",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -116,6 +120,7 @@ const user = props => __jsx("div", {
     columnNumber: 3
   }
 }, __jsx("h1", {
+  className: "jsx-489936096",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -123,13 +128,17 @@ const user = props => __jsx("div", {
     columnNumber: 5
   }
 }, props.name), __jsx("p", {
+  className: "jsx-489936096",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6,
     columnNumber: 5
   }
-}, "Age: ", props.age));
+}, "Age: ", props.age), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "489936096",
+  __self: undefined
+}, "div.jsx-489936096{border:1px solid #eee;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy92d21hYy9Qcm9qZWN0cy9SQ0cvMjMuMzg3L25leHRKUy10ZXN0L2NvbXBvbmVudHMvVXNlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPTyxBQUcrQixzQkFDeEIiLCJmaWxlIjoiL1VzZXJzL3Z3bWFjL1Byb2plY3RzL1JDRy8yMy4zODcvbmV4dEpTLXRlc3QvY29tcG9uZW50cy9Vc2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuY29uc3QgdXNlciA9IChwcm9wcykgPT4gKFxuICA8ZGl2PlxuICAgIDxoMT57cHJvcHMubmFtZX08L2gxPlxuICAgIDxwPkFnZToge3Byb3BzLmFnZX08L3A+XG4gICAgPHN0eWxlIGpzeD5cbiAgICAgIHtgXG4gICAgICBkaXYge1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xuICAgICAgfVxuICAgICAgYH1cbiAgICA8L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IHVzZXI7XG4iXX0= */\n/*@ sourceURL=/Users/vwmac/Projects/RCG/23.387/nextJS-test/components/User.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (user);
 
@@ -201,6 +210,17 @@ module.exports = __webpack_require__(/*! /Users/vwmac/Projects/RCG/23.387/nextJS
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
