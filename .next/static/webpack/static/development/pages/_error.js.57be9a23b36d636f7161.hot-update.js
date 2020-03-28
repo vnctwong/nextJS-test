@@ -1324,22 +1324,22 @@ var errorPage = function errorPage() {
       lineNumber: 7,
       columnNumber: 5
     }
-  }, "Go to ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Try ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 14
+      columnNumber: 12
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 29
+      columnNumber: 27
     }
-  }, "Go back"))));
+  }, "Going back"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (errorPage);
